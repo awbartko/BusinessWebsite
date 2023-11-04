@@ -10,7 +10,7 @@ AS A buyer
 I WANT TO find a real estate expert
 SO THAT purchase a real estate property that will best fit my needs and within my budget
 
-AS A realtor
-I WANT TO provide the best guidance to my clients
-SO THAT I can assist my clients meet their buying and selling objectives
+AS AN investor
+I WANT TO search for an investment property
+SO THAT I can make a great profit
 ```
