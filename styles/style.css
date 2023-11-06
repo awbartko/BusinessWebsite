@@ -1,6 +1,7 @@
-:root{
+/* *********** CSS VARIABLES ************* */
+:root {
     --primary-background: #F5F5F5;
-    --primary-accent: #C7B17A;
+    --primary-accent: #F5F5F5;
     --hover-primary-accent: #C7B17A;
     --primary-font: black;
     --alternate-background: white;
@@ -8,26 +9,63 @@
     --header-footer-font: #F5F5F5;
 }
 
+/* *********** RESET ************* */
+html {
+    font-size: 16px;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
+/* *********** PAGE LEVEL STYLES ************* */
 body {
     font-family: 'Cormorant Garamond', serif;
     color: var (--primary-font);
     background-color: var(--primary-background);
 }
 
-header, footer {
-    color: #F5F5F5;
-    background-color: var(--header-footer-background);
-}
-
 a {
-    color: var(--primary-background);
+    color: var(--primary-accent);
 }
 
 a:hover {
+    color: var(--hover-primary-accent)
+}
+
+/* *********** HEADER AND FOOTER ************* */
+.page-header, .page-footer {
+    color: var(--primary-accent);
+    background-color: var(--header-footer-background);
+}
+
+.page-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.page-menu-container {
+    list-style-type: none;
+    display:flex;
+    font-weight: 600;
+}
+
+.page-menu-item {
+   margin: 0.5rem
+}
+
+.page-menu-link {
+    color: var(-primary-accent);
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.page-menu-link:hover {
     color: var(--hover-primary-accent);
 }
+
