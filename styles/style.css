@@ -1,3 +1,33 @@
+:root{
+    --primary-background: #F5F5F5;
+    --primary-accent: #C7B17A;
+    --hover-primary-accent: #C7B17A;
+    --primary-font: black;
+    --alternate-background: white;
+    --header-footer-background: black;
+    --header-footer-font: #F5F5F5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Cormorant Garamond', serif;
+    color: var (--primary-font);
+    background-color: var(--primary-background);
+}
+
+header, footer {
+    color: #F5F5F5;
+    background-color: var(--header-footer-background);
+}
+
+a {
+    color: var(--primary-background);
+}
+
+a:hover {
+    color: var(--hover-primary-accent);
 }
