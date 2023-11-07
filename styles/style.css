@@ -4,7 +4,7 @@
     --primary-accent: #F5F5F5;
     --hover-primary-accent: #C7B17A;
     --primary-font: black;
-    --alternate-background: white;
+    --alternate-background: #DED3B8;
     --header-footer-background: black;
     --header-footer-font: #F5F5F5;
 }
@@ -22,7 +22,7 @@ html {
 /* *********** PAGE LEVEL STYLES ************* */
 body {
     font-family: 'Cormorant Garamond', serif;
-    color: var (--primary-font);
+    color: var(--primary-font);
     background-color: var(--primary-background);
 }
 
@@ -83,3 +83,20 @@ a:hover {
     color: var(--hover-primary-accent);
 }
 
+/* *********** MAIN ************* */
+.bg-dark {
+   background-color: var(--alternate-background);
+}
+
+.our-story {
+    text-align: center;
+    padding: 1.5rem 1.5rem 2.5rem;
+}
+
+.our-story-heading {
+    margin: 1rem;
+}
+    
+.our-story-tagline {
+    margin: 0.5rem;
+}
