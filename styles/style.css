@@ -4,7 +4,7 @@
     --primary-accent: #F5F5F5;
     --hover-primary-accent: #C7B17A;
     --primary-font: black;
-    --alternate-background: #DED3B8;
+    --alternate-background: #EEEEE7;
     --header-footer-background: black;
     --header-footer-font: #F5F5F5;
 }
@@ -66,7 +66,7 @@ a:hover {
 .page-menu-container {
     list-style-type: none;
     display: flex;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .page-menu-item {
@@ -76,7 +76,7 @@ a:hover {
 .page-menu-link {
     color: var(-primary-accent);
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: .5px;
 }
 
 .page-menu-link:hover {
@@ -88,15 +88,45 @@ a:hover {
    background-color: var(--alternate-background);
 }
 
+.main-section {
+    padding: 1.5rem 1.5rem 2.5rem;
+}
+
 .our-story {
     text-align: center;
-    padding: 1.5rem 1.5rem 2.5rem;
 }
 
 .our-story-heading {
     margin: 1rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 500;
 }
     
 .our-story-tagline {
     margin: 0.5rem;
+    font-size: 18px
+}
+
+.featured-properties-heading {
+    text-align: center;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 500;
+}
+
+.featured-properties-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-properties-card {
+    padding: 2.5rem;
+}
+
+.featured-properties-description {
+    list-style-type: none;
 }
