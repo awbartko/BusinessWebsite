@@ -41,7 +41,7 @@ a:hover {
 }
 
 .page-header {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
@@ -49,9 +49,23 @@ a:hover {
     letter-spacing: 1px;
 }
 
+.page-footer {
+    padding: 2rem 1.5rem;
+}
+
+.footer-links-container {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.footer-link-item {
+    margin: 0.5rem;
+}
+
 .page-menu-container {
     list-style-type: none;
-    display:flex;
+    display: flex;
     font-weight: 600;
 }
 
