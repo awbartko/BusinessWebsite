@@ -106,7 +106,11 @@ a:hover {
     
 .our-story-tagline {
     margin: 0.5rem;
-    font-size: 18px
+    font-size: 19px
+}
+
+.featured-properties {
+    padding-left: 10%;
 }
 
 .featured-properties-heading {
@@ -129,4 +133,124 @@ a:hover {
 
 .featured-properties-description {
     list-style-type: none;
+    font-size: 17px;
+}
+
+.meet-the-team-heading {
+    text-align: center;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 500;
+}
+
+.realtor-container-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.realtor-image-container-one {
+    align-items: center;
+    justify-content: center;
+}
+
+.realtor-image-one {
+    float: left;
+    align-items: center;
+}
+
+.realtor-contact-one {
+    list-style-type: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+.realtor-heading-container-one {
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+}
+
+.realtor-h2-one {
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.realtor-h3-one {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.realtor-h4-one {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.realtor-description-container-one {
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+.realtor-tagline-one {
+    font-size: 19px;
+}
+
+.realtor-container-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.realtor-image-container-two {
+    align-items: center;
+    justify-content: center;
+}
+
+.realtor-image-two {
+    float: left;
+    align-items: center;
+}
+
+.realtor-contact-two {
+    list-style-type: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+.realtor-heading-container-two {
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+}
+
+.realtor-h2-two {
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.realtor-h3-two {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.realtor-h4-two {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.realtor-description-container-two {
+    padding-left: 40px;
+    padding-bottom: 60px;
+}
+
+.realtor-tagline-two {
+    font-size: 19px;
 }
