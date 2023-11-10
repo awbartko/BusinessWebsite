@@ -19,11 +19,21 @@ html {
     padding: 0;
 }
 
+input, textarea {
+    padding: 0.5rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+}
+
 /* *********** PAGE LEVEL STYLES ************* */
 body {
     font-family: 'Cormorant Garamond', serif;
     color: var(--primary-font);
     background-color: var(--primary-background);
+}
+
+label {
+    margin-bottom: 0.25rem;
 }
 
 a {
@@ -86,6 +96,10 @@ a:hover {
 /* *********** MAIN ************* */
 .bg-dark {
    background-color: var(--alternate-background);
+}
+
+p {
+    margin: 0.5rem 0;
 }
 
 .main-section {
@@ -254,4 +268,78 @@ a:hover {
 
 .realtor-tagline-two {
     font-size: 19px;
+}
+
+.lets-connect {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.lets-connect-heading {
+    text-align: center;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 500;
+}
+
+.form-row {
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-row.no-stretch {
+    align-items: flex-start;
+}
+
+.best-time-to-call-drop-down {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--primary-font);
+    font-size: 16px;
+    padding: 0.5rem;
+}
+
+.preferred-agent-drop-down {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--primary-font);
+    font-size: 16px;
+    padding: 0.5rem;
+}
+
+.when-do-you-plan-to-buy-or-sell-drop-down {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--primary-font);
+    font-size: 16px;
+    padding: 0.5rem;
+}
+
+.lets-connect-button {
+    background: none;
+    padding: 0.55rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.25s;
+    color: #C7B17A;
+    border-color: #C7B17A;
+    border-style: solid;
+    text-transform: uppercase;
+}
+
+.lets-connect-button:hover {
+    background-color:#C7B17A;
+    transition: 0.7s;
+    color: #EEEEE7;
+}
+
+.lets-connect-button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 0px #C7B17A;
+    transition: 0.7s;
 }
