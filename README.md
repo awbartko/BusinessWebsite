@@ -1,8 +1,11 @@
 # Business Website
 
+Hosting: https://awbartko.github.io/BusinessWebsite/
+
 ## User Stories
+
 ```
-AS A seller 
+AS A seller
 I WANT TO find a helpful and knowledgeable realtor
 SO THAT I can sell my real estate property at top dollar
 
