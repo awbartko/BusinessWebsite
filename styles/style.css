@@ -99,8 +99,8 @@ a:hover {
 }
 
 /* *********** MAIN ************* */
-.bg-dark {
-   background-color: var(--alternate-background);
+.section-dark {
+   background-color: var(--alternate-background); 
 }
 
 p {
