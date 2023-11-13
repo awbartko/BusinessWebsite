@@ -98,6 +98,24 @@ a:hover {
     color: var(--hover-primary-accent);
 }
 
+.navbar-brand {
+    font-weight: 500;
+}
+
+.nav-link {
+   text-transform: uppercase;
+   color: var(--header-footer-font);
+   font-weight: 5oo;
+}
+
+.nav-link:hover {
+    color: var(--hover-primary-accent)
+}
+
+main {
+    margin-top: 55px; /* fixed-top navbar */
+}
+
 /* *********** MAIN ************* */
 .section-dark {
    background-color: var(--alternate-background); 
@@ -355,7 +373,7 @@ p {
     transition: 0.7s;
 }
 
-@media screen and (max-width: 1286px) {
+@media screen and (max-width: 1400px) {
     .our-story-tagline {
         margin: 20px;
     }
@@ -367,7 +385,7 @@ p {
     }
 }
 
-@media screen and (max-width: 1069px) {
+@media screen and (max-width: 1200px) {
     .featured-properties-container {
         flex-direction: column;
         align-items: center;
@@ -395,7 +413,7 @@ p {
     }
 } 
 
-@media screen and (max-width: 377px) {
+@media screen and (max-width: 768px) {
     .footer-links-container {
         flex-direction: column;
         align-items: center;
