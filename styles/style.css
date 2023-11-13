@@ -112,6 +112,7 @@ p {
 
 .our-story {
     text-align: center;
+    padding-top: 45px;
 }
 
 .our-story-heading {
@@ -130,6 +131,7 @@ p {
 .featured-properties {
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 45px;
 }
 
 .featured-properties-heading {
@@ -160,6 +162,10 @@ p {
     list-style-type: none;
     font-size: 17px;
     padding-left: 0;
+}
+
+.meet-the-team {
+    padding-top: 45px;
 }
 
 .meet-the-team-heading {
@@ -285,6 +291,7 @@ p {
     display: grid;
     align-content: center;
     justify-content: center;
+    padding-top: 45px;
 }
 
 .lets-connect-heading {
