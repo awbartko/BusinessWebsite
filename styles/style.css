@@ -70,7 +70,7 @@ a:hover {
 }
 
 .page-menu-link {
-    color: var(-primary-accent);
+    color: var(--primary-accent);
     text-decoration: none;
     letter-spacing: .5px;
 }
@@ -86,7 +86,7 @@ a:hover {
 .nav-link {
    text-transform: uppercase;
    color: var(--header-footer-font);
-   font-weight: 5oo;
+   font-weight: 500;
 }
 
 .nav-link:hover {
@@ -399,7 +399,7 @@ p {
 
 @media screen and (max-width: 992px) {
     html {
-        font size: 12px;
+        font-size: 12px;
     }
     .page-menu-container {
         display: none;
