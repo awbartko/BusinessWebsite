@@ -155,7 +155,7 @@ p {
 }
 
 .featured-properties-card {
-    padding: 2.5rem;
+    padding-top: 2.5rem;
 }
 
 .featured-properties-description {
@@ -381,12 +381,16 @@ p {
     }
     .realtor-container-one {
         flex-direction: column;
+        text-align: center;
+        padding: 0;
     }
     .realtor-description-container-one {
         padding-top: 40px;
     }
     .realtor-container-two {
         flex-direction: column;
+        text-align: center;
+        padding: 0;
     }
     .realtor-description-container-two {
         padding-top: 40px;
