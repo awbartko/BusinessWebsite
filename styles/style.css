@@ -2,7 +2,7 @@
 :root {
     --primary-background: #F5F5F5;
     --primary-accent: #F5F5F5;
-    --hover-primary-accent: #C7B17A;
+    --hover-primary-accent: #615129;
     --primary-font: black;
     --alternate-background: #EEEEE7;
     --header-footer-background: black;
@@ -343,14 +343,14 @@ p {
     font-size: 1rem;
     cursor: pointer;
     transition: 0.25s;
-    color: #C7B17A;
-    border-color: #C7B17A;
+    color: #615129;
+    border-color: #615129;
     border-style: solid;
     text-transform: uppercase;
 }
 
 .lets-connect-button:hover {
-    background-color:#C7B17A;
+    background-color:#615129;
     transition: 0.7s;
     color: #EEEEE7;
 }
@@ -358,7 +358,7 @@ p {
 .lets-connect-button:focus {
     outline-color: transparent;
     outline-style:solid;
-    box-shadow: 0 0 0 0px #C7B17A;
+    box-shadow: 0 0 0 0px #615129;
     transition: 0.7s;
 }
 
